@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="bg-stone-50">
+  <nav class="top-0 sticky w-full flex justify-center items-center bg-blue-600 text-white shadow">
+    <div class="px-4 py-2 w-full max-w-3xl flex items-center jsutify-between">
+      <a href="./timeline.html" class="flex-1 text-lg font-semibold">WebMeet</a>
+      <div>
+        <div class="group relative z-20">
+          <div class="cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+              class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+            </svg>
+          </div>
+          <div class="mt-6 group-hover:flex flex-col items-end z-20 absolute hidden h-auto -right-2 -top-1">
+            <div
+              class="flex flex-col bg-white text-black shadow rounded z-20 min-w-32 py-1 overflow-hidden -translate-y-1">
+              <a class="z-20 w-full py-1 px-4 hover:bg-blue-100" href="./account.html">Account</a>
+              <a class="z-20 w-full py-1 px-4 hover:bg-blue-100" href="./signin.html">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="w-full flex justify-center items-center">
+    <div class="w-full flex flex-col max-w-3xl px-4 py-2">
+      <div class="flex flex-col bg-white rounded mt-4 shadow">
+        <div class="border-b px-4 py-2 font-semibold">Account Settings</div>
+        <div class="p-4 flex flex-col gap-4">
+          <div class="relative text-stone-700 overflow-hidden w-16 h-16 rounded-full bg-stone-400 flex justify-center">
+            <svg class="absolute -bottom-2" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+              fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+            </svg>
+          </div>
+          <form class="flex flex-col gap-4">
+            <input value="John Doe" placeholder="Username" type="text" class="border rounded px-4 py-2">
+            <div class="flex gap-4">
+              <input value="johndoe@email.com" placeholder="Email" type="text" class="flex-1 border rounded px-4 py-2">
+              <button class="bg-blue-600 text-white px-4 py-1 rounded shadow font-semibold">Change Password</button>
+            </div>
+            <div class="flex gap-4">
+              <p class="flex flex-col flex-1">
+                <span class="font-bold">Available for Meetings</span>
+                <span class="text-stone-500">If checked you'll be able to recive meeting invitations</span>
+              </p>
+              <label class="inline-flex items-center cursor-pointer">
+                <input type="checkbox" value="" class="sr-only peer" checked>
+                <div
+                  class="relative w-11 h-6 bg-stone-200 rounded-full peer peer-focus:ring-2 dark:peer-focus:ring-blue-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
+                </div>
+              </label>
+            </div>
+            <div class="mt-8 flex gap-4 justify-between">
+              <div class="flex gap-4">
+                <button class="bg-green-600 text-white px-4 py-1 rounded shadow font-semibold">Update Profile</button>
+                <button class="bg-stone-400 text-white px-4 py-1 rounded shadow font-semibold">Share Profile</button>
+              </div>
+              <button class="bg-red-600 text-white px-4 py-1 rounded shadow font-semibold">Delete Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

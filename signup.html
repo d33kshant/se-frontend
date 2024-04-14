@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50">
+  <div class="flex flex-col justify-center items-center">
+    <form class="min-w-72 mt-10 flex flex-col px-4 py-4 gap-2 shadow rounded bg-white">
+      <h1 class="text-lg font-semibold text-center mb-4">Sign Up to WebMeet</h1>
+      <input class="border rounded px-4 py-2" type="text" placeholder="Username or Email">
+      <input class="mt-2 border rounded px-4 py-2" type="password" placeholder="Password" >
+      <input class="mt-2 border rounded px-4 py-2" type="repeat-password" placeholder="Repeat password">
+      <a href="./timeline.html" class="text-center shadow bg-blue-600 text-white px-4 py-2 rounded mt-4">Sign Up</a>
+      <div class="flex items-center gap-2">
+        <div class="w-full h-[1px] bg-stone-100 mt-2"></div>
+        <span class="mt-1">or</span>
+        <div class="w-full h-[1px] bg-stone-100 mt-2"></div>
+      </div>
+      <a href="./timeline.html" class="shadow text-center border rounded px-4 py-2 mt-2 hover:bg-stone-100">
+        Sign up with Google
+      </a>
+    </form>
+    <span class="mt-2">already have an account? <a class="text-blue-600 cursor-pointer" href="/signin.html">Sign In</a></span>
+  </div>
+</body>
+</html>

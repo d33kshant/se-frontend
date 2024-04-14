@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-full h-full bg-stone-50">
+  <nav class="top-0 sticky w-full flex justify-center items-center w-full bg-blue-600 text-white shadow">
+    <div class="px-4 py-2 w-full max-w-3xl flex items-center jsutify-between">
+      <div class="flex-1 text-lg font-semibold">WebMeet</div>
+      <div class="flex gap-4 items-center">
+        <a href="./signin.html">
+          <svg focusable="false" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M16,8a5,5,0,1,0,5,5A5,5,0,0,0,16,8Z"></path><path d="M16,2A14,14,0,1,0,30,16,14.0158,14.0158,0,0,0,16,2Zm7.9925,22.9258A5.0016,5.0016,0,0,0,19,20H13a5.0016,5.0016,0,0,0-4.9925,4.9258,12,12,0,1,1,15.985,0Z"></path><title>User avatar filled alt</title></svg>
+        </a>
+        <a href="./account.html">
+          <svg focusable="false" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M6,30H18a2.0023,2.0023,0,0,0,2-2V25H18v3H6V4H18V7h2V4a2.0023,2.0023,0,0,0-2-2H6A2.0023,2.0023,0,0,0,4,4V28A2.0023,2.0023,0,0,0,6,30Z"></path><path d="M20.586 20.586L24.172 17 10 17 10 15 24.172 15 20.586 11.414 22 10 28 16 22 22 20.586 20.586z"></path><title>Logout</title></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="w-full flex justify-center items-center">
+    <div class="w-full flex flex-col max-w-3xl px-4 py-2">
+      <div>
+        <h1 class="mt-4 text-2xl font-semibold">Welcom, John Doe</h1>
+        <p class="mt-2 text-stone-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illo deserunt, earum voluptates unde nulla animi alias a totam nam aliquid exercitationem. Adipisci, dignissimos quis!</p>
+        <a class="text-blue-500 flex mt-4 w-fit bg-purple-600 text-white rounded px-4 py-1 shadow cursor-pointer" href="./create-meeting.html">Start Meeting</a>
+      </div>
+      <div class="my-10">
+        <div class="flex justify-between">
+          <h1 class="text-lg font-semibold">Upcomming Meetings</h1>
+        </div>
+        <div class="flex flex-col mt-6 px-2">
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 bg-stone-500 rounded"></div>
+              <div class="w-[1px] flex-1 bg-stone-400"></div>
+            </div>
+            <div class="mb-6 bg-white shadow p-4 rounded">
+              <h1 class="text-xl">Lorem, ipsum dolor.</h1>
+              <p class="text-stone-500 mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sint at fugiat vero nostrum assumenda.</p>
+              <p class="text-red-500 mt-4">Meeting Closed</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 bg-stone-500 rounded"></div>
+              <div class="w-[1px] flex-1 bg-stone-400"></div>
+            </div>
+            <div class="mb-6 bg-white shadow p-4 rounded">
+              <h1 class="text-xl">Lorem, ipsum dolor.</h1>
+              <p class="text-stone-500 mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sint at fugiat vero nostrum assumenda.</p>
+              <a href="./meeting.html" class="text-blue-500 mt-4 flex bg-green-600 text-white rounded px-4 py-1 shadow cursor-pointer w-fit">Join Meeting</a>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 bg-stone-500 rounded"></div>
+              <div class="w-[1px] flex-1 bg-stone-400"></div>
+            </div>
+            <div class="mb-6 bg-white shadow p-4 rounded">
+              <h1 class="text-xl">Lorem, ipsum dolor.</h1>
+              <p class="text-stone-500 mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sint at fugiat vero nostrum assumenda.</p>
+              <p class="mt-2">01:00 AM</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 bg-stone-500 rounded"></div>
+              <div class="w-[1px] flex-1 bg-stone-400"></div>
+            </div>
+            <div class="mb-6 bg-white shadow p-4 rounded">
+              <h1 class="text-xl">Lorem, ipsum dolor.</h1>
+              <p class="text-stone-500 mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sint at fugiat vero nostrum assumenda.</p>
+              <p class="mt-2">02:00 AM</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 bg-stone-500 rounded"></div>
+              <div class="w-[1px] flex-1 bg-stone-400"></div>
+              <div class="w-[1px] mt-1 h-[4px] bg-stone-400"></div>
+              <div class="w-[1px] mt-1 h-[4px] bg-stone-400"></div>
+            </div>
+            <div class=" bg-white shadow p-4 rounded">
+              <h1 class="text-xl">Lorem, ipsum dolor</h1>
+              <p class="text-stone-500 mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi sint at fugiat vero nostrum assumenda.</p>
+              <p class="mt-2">03:00 AM</p>
+            </div>
+          </div>
+          <p class="mt-4 text-stone-500">No more meetings</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

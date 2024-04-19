@@ -1,5 +1,5 @@
 ## Assignment 7
-[Open App](./signin.html)
+[Open App](https://d33kshant.github.io/se-frontend/signin.html)
 
 **List of Frontend Pages**
 1. Sign In Page

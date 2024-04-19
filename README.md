@@ -1,5 +1,5 @@
 ## Assignment 7
-Start with Sign In Page (`signin.html`) for better navigation
+[Open App](./signin.html)
 
 **List of Frontend Pages**
 1. Sign In Page
